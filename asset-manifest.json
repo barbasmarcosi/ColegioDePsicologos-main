@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ColegioDePsicologos/static/css/main.f9c15753.css",
+    "main.js": "/ColegioDePsicologos/static/js/main.c5d91bd8.js",
+    "static/media/274939658___n.jpg": "/ColegioDePsicologos/static/media/274939658_3291721861059567_5644708098258573433_n.fbc6cacca3d25a992b0c.jpg",
+    "index.html": "/ColegioDePsicologos/index.html",
+    "main.f9c15753.css.map": "/ColegioDePsicologos/static/css/main.f9c15753.css.map",
+    "main.c5d91bd8.js.map": "/ColegioDePsicologos/static/js/main.c5d91bd8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9c15753.css",
+    "static/js/main.c5d91bd8.js"
+  ]
+}
