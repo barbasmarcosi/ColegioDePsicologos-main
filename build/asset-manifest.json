@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ColegioDePsicologos.github.io/static/css/main.f9c15753.css",
-    "main.js": "/ColegioDePsicologos.github.io/static/js/main.919550f7.js",
+    "main.js": "/ColegioDePsicologos.github.io/static/js/main.2e9fcaed.js",
     "static/media/274939658___n.jpg": "/ColegioDePsicologos.github.io/static/media/274939658_3291721861059567_5644708098258573433_n.fbc6cacca3d25a992b0c.jpg",
     "index.html": "/ColegioDePsicologos.github.io/index.html",
     "main.f9c15753.css.map": "/ColegioDePsicologos.github.io/static/css/main.f9c15753.css.map",
-    "main.919550f7.js.map": "/ColegioDePsicologos.github.io/static/js/main.919550f7.js.map"
+    "main.2e9fcaed.js.map": "/ColegioDePsicologos.github.io/static/js/main.2e9fcaed.js.map"
   },
   "entrypoints": [
     "static/css/main.f9c15753.css",
-    "static/js/main.919550f7.js"
+    "static/js/main.2e9fcaed.js"
   ]
 }
