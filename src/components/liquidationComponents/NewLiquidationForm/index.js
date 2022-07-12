@@ -53,7 +53,7 @@ function NewLiquidationForm() {
     ) {
       alert("El año debe ser numerico y de 4 cifras");
     } else if (
-      !(Number(newLiquidationMonth) && newLiquidationYear.length < 3)
+      !(Number(newLiquidationMonth) && newLiquidationMonth.length < 3)
     ) {
       alert("El mes debe ser numerico y no mayor a dos cifras");
     } else {
