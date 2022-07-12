@@ -39,6 +39,7 @@ function NewLiquidationForm() {
   };
   const onSubmit = (event) => {
     event.preventDefault();
+    console.log(newLiquidationYear, Number(newLiquidationYear));
     if (
       !(
         newLiquidationMonth &&
@@ -49,13 +50,13 @@ function NewLiquidationForm() {
     ) {
       alert("Verifique los datos ingresados");
     } else if (
-      !(Number(newLiquidationYear) && newLiquidationYear.length === 4)
+      !(Number(newLiquidationYear) && newLiquidationYear <= new Date(Date.now()).getFullYear())
     ) {
-      alert("El año debe ser numerico y de 4 cifras");
+      alert("El año debe ser numerico y menor o igual al año actual");
     } else if (
-      !(Number(newLiquidationMonth) && newLiquidationMonth.length < 3)
+      !(Number(newLiquidationMonth) && newLiquidationMonth <= 12 && newLiquidationMonth > 0)
     ) {
-      alert("El mes debe ser numerico y no mayor a dos cifras");
+      alert("El mes debe ser numerico y entre 1 y 12");
     } else {
       addLiquidation(
         Number(newLiquidationMonth),
